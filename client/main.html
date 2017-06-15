@@ -1,0 +1,48 @@
+<head>
+  <title>bookingHotel</title>
+</head>
+
+<body>
+  {{>header}}
+
+{{>bg}}
+
+</body>
+
+
+
+<template name="header">
+
+
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Oslo" class="tabcontent">
+  <h3>Oslo</h3>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<button class="tablink" data-img="bgLondon" cityName="London" color="#A3E7D8" id="defaultOpen">London</button>
+<button class="tablink" data-img="bgParis" cityName="Paris" color="#F9A484">Paris</button>
+<button class="tablink" data-img="bgTokyo" cityName="Tokyo" color="#F9A484">Tokyo</button>
+<button class="tablink" data-img="bgOslo" cityName="Oslo" color="#F9A484  ">Oslo</button>
+</template>
+
+<template name="bg">
+  <div id="set_img" class="bgLondon" style="height:100vh">
+
+  </div>
+</template>

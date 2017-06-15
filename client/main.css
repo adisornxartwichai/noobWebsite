@@ -1,0 +1,73 @@
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+    background-color: #F2ED8C;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #FFDDDD;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 120px;
+    text-align: center;
+}
+
+#London {background-image: url("https://media.timeout.com/images/100644443/image.jpg") ;
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+        }
+#Paris {background-image: url("http://wallpapercave.com/wp/7MB5nZc.jpg");
+            background-size: 100%;
+          background-repeat: no-repeat;
+        }
+#Tokyo {background-image: url("https://images6.alphacoders.com/739/739635.jpg");
+            background-size: 100%;
+          background-repeat: no-repeat;
+        }
+#Oslo {background-image: url("https://www.scandichotels.com/imagevault/publishedmedia/arwrtrtjnciobchjesfc/Norway_Oslo__J-rn_Eriksson_500px_com__stock-photo-.jpg");
+            background-size: 100%;
+          background-repeat: no-repeat;
+      }
+#bg{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.bgLondon{
+          background-image: url("http://www.avgcondo.com/wp-content/uploads/2015/2015030111121.jpg");
+          background-size: 100%;
+          background-repeat: no-repeat;
+          height: 100%;
+}
+
+.bgParis{
+          background-image: url("http://wallpaper.pickywallpapers.com/1920x1080/bridge-in-paris.jpg");
+          background-size: 100%;
+          background-repeat: no-repeat;
+}
+
+.bgTokyo{
+          background-image: url("http://wallpapercave.com/wp/WAXK1aF.jpg");
+          background-size: 100%;
+          background-repeat: no-repeat;
+}
+
+.bgOslo{
+          background-image: url("http://wallpapermonkey.com/wp-content/uploads/2016/02/wallpaper-HD-Norway.jpg");
+          background-size: 100%;
+          background-repeat: no-repeat;
+
+}
